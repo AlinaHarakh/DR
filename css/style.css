@@ -1,0 +1,230 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+html, body, div, span,
+h1, h2, h3, h4, h6, p, strong, ol, ul, li {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+	font-family: "Manrope", sans-serif;
+	background: #1b1a1a;
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 400;
+}
+.top {
+	position: relative;
+	background: url('../images/header.svg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 225px;
+}
+.page {
+	width: 918px;  
+	margin: 0px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.title {
+	font-family: "Kumbh Sans", sans-serif;
+  font-size: 52px;
+	font-weight: 600;
+  color: #fff;
+	padding: 60px 0 0 60px;
+}
+.logo	{
+	height: 152px;
+	width: 152px;
+	position: absolute;
+	top: 30px;
+	right: 100px;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.content {
+	max-width: 658px;
+}
+.content-box {
+	margin-bottom: 35px;
+}
+.content-box:last-child {
+	margin: 0;
+}
+.box-inner {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+}
+.content-title {
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #0065e1;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.content-title span {
+	letter-spacing: 0;
+}
+.content-subtitle {
+	color: #7e7e7e;
+  font-style: italic;
+	margin-bottom: 8px;
+}
+.content-img {
+	margin-top: -28px;
+	display: block;
+	max-width: 284px;
+	height: 105px;
+}
+.content-item + .content-item {
+	margin-top: 7px;
+}
+.list-item {
+	margin-top: 7px;
+	color: #2e3640
+}
+ul {
+	padding-left: 15px;
+}
+.item-list {
+	padding-left: 60px;
+}
+.aside {
+	width: 200px;
+	background-color: #0f1722;
+	padding: 0 15px 0;
+	background-image: url('../images/decor.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -180px;
+	padding-top: 180px;
+}
+.aside-item {
+	margin-bottom: 15px;
+}
+.aside-title {
+	font-family: "Kumbh Sans", sans-serif;
+	font-weight: 600;
+	color: #ff501b;
+	margin-bottom: 10px;
+}
+.aside-text {
+  color: #ffffff;
+}
+.aside-info {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+.aside-descr {
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+  color: #ff501b;
+}
+
+/* 2 */
+.columns {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+.two {
+	flex: auto;
+}
+.left-side {
+	flex: auto;
+}
+.left-column {
+	max-width: 658px;
+}
+.left-item {
+	width: 260px;
+}
+.left-item:not(:last-child) {
+	margin-bottom: 30px;
+}
+.two-title {
+	font-family: "Kumbh Sans", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	color: #0065e1;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.two-text {
+	line-height: 22px;
+}
+.right-column {
+	flex: auto;
+	max-width: 320px;
+	margin: 0 auto;
+}
+.race {
+	
+}
+.race-title {
+	margin: 120px 0 20px;
+}
+.right-img {
+	/* max-width: 320px; */
+	display: block;
+	margin-bottom: 80px;
+	/* margin: 0px auto 80px auto; */
+}
+.faq-item {
+	max-width: 320px;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+.faq-text:not(:first-child) {
+	margin-top: 10px;
+}
+.faq-text span {
+	font-style: italic;
+	color: #ff0000;
+}
+
+/* 3 */
+.content-info {
+	margin-bottom: 20px;
+}
+.content-example {
+	line-height: 26px;
+}
+.content-example span {
+	font-weight: 600;
+}
+.benefits-list {
+	font-weight: 400;
+}
+.benefits-item {
+	color: #1b1a1a;
+	margin-bottom: 15px;
+}
+.back-item {
+	margin-bottom: 20px;
+	color: #0f1722;
+}
+.back-info {
+  color: #fffffe;
+	margin-bottom: 10px;
+}
+.back-text {
+	margin-bottom: 10px;
+}
