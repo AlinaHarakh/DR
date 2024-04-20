@@ -175,17 +175,13 @@ ul {
 	max-width: 320px;
 	margin: 0 auto;
 }
-.race {
-	
-}
 .race-title {
-	margin: 120px 0 20px;
+	margin: 6px 0 8px;
 }
 .right-img {
-	/* max-width: 320px; */
+	max-width: 320px;
 	display: block;
-	margin-bottom: 80px;
-	/* margin: 0px auto 80px auto; */
+	margin-bottom: 53px;
 }
 .faq-item {
 	max-width: 320px;
